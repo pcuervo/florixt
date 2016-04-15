@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+#cactus_banner_shortcode,
+#cactus_blog_shortcode,
+#cactus_button_shortcode,
+#cactus_compare_table_shortcode,
+#cactus_content_box_shortcode,
+#cactus_countdown_timer_shortcode,
+#cactus_counter_shortcode,
+#cactus_feature_showcases_shortcode,
+#cactus_font_icon_shortcode,
+#cactus_heading_shortcode,
+#cactus_iconbox_shortcode,
+#cactus_image_showcase_shortcode,
+#cactus_jobs_shortcode,
+#cactus_member_shortcode,
+#cactus_parallax_shortcode,
+#cactus_partners_shortcode,
+#cactus_post_grid_shortcode,
+#cactus_schedule_shortcode,
+#cactus_simple_showcases_shortcode,
+#cactus_slider_shortcode,
+#cactus_story_shortcode,
+#cactus_testimonials_shortcode,
+#cactus_text_shadow_shortcode,
+#cactus_review_shortcode,
+#cactus_tooltip_shortcode
+{
+	display:none;
+}
+
+i.mce-ico.mce-i-icons {
+	background:url(../img/shortcode.png) no-repeat center;
+}
+.mce-container[aria-label="Shortcode"] {
+overflow-y: scroll;
+overflow-x: hidden;
+max-height: 80%;
+top: 10% !important;
+width:356px !important;
+}
+/* Fix Style Shortcode Heading in Classic Editor*/
+.mce-container[aria-label="Heading"] {
+width:730px !important;
+left: 20% !important;
+right:auto !important;
+}
+.mce-container[aria-label="Heading"] label{
+	width: 340px !important;
+}
+.mce-container[aria-label="Heading"] input, .mce-container[aria-label="Heading"] textarea, .mce-container[aria-label="Heading"] .mce-listbox {
+	left:340px !important;
+	width: 340px !important;
+}
+
+.mce-container[aria-label="Heading"] #mceu_91-l{
+	height:40px !important;
+	line-height:15px !important;
+}
+.mce-container[aria-label="Heading"] #mceu_91-l:after{
+	content: "for example 'fa fa-home'. This parameter works with style 1 & 2";
+	float:left;
+	color: #666;
+	font-style:italic;
+	font-size: 12px;
+}
+/* Fix Style Shortcode Heading in Classic Editor*/

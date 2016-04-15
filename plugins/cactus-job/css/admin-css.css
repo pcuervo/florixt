@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.cmb_metabox_description{ float:right; width:48%}
+.cmb_metabox .field-item{ float:left; width:50%}
+
+.uk-tab.uk-tab-left > li > a{border-top:0;border-bottom:0}
+.row .option{ width:30%; margin-bottom:20px !important}
+.row .option label{ width:50%; float:left}
+.wp-color-result:focus, .wp-color-result:hover{ text-decoration:none}
+#logo_image_holder img{ height:200px; margin-top:20px}

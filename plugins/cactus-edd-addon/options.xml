@@ -1,0 +1,42 @@
+<?xml version='1.0'?> 
+<options>
+	<tab label="General" icon="cog">
+		<group>
+			<fields label="Enable Single Page for Product News">
+				<option id="edd-addon-single-page" type="select" default="on" tooltip="" >
+					<select value="on" text="On"/>
+					<select value="off" text="Off"/>
+				</option>
+				<description>Enable single page for Product News. If off, single page and listing page are not accessible</description>
+			</fields>
+			<fields label="Product News Slug">
+				<option id="edd-addon-product-slug" type="textfield" width="100" default="product-news"></option>
+				<description>Change news slug. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Product-News Listing" icon="cog">
+		<group>
+			<fields label="Listing Page">
+				<option id="edd-addon-listing-page" type="page" width="150" default=""></option>
+				<description>Assign News Listing page to a page. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+			<fields label="Post Per Page">
+				<option id="edd-addon-post-per-page" type="textfield" width="100" default="10"></option>
+				<description>Number of posts per page in Product-News Listing page</description>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Product-News Single Page" icon="cog">
+		<group>
+			<fields label="Sidebar">
+				<option id="edd-addon-sidebar" type="select" default="right" tooltip="" >
+					<select value="right" text="Right"/>
+					<select value="left" text="Left"/>
+					<select value="hidden" text="Hidden"/>
+				</option>
+				<description>Select default layout for single Product-News pages</description>
+			</fields>
+		</group>
+	</tab>
+</options>

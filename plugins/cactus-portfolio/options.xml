@@ -1,0 +1,97 @@
+<?xml version='1.0'?> 
+<options>
+	<tab label="General" icon="cog">
+		<group>
+			<fields label="Portfolio slug">
+				<option id="portfolio-slug" type="textfield" width="100" default="portfolio"></option>
+				<description>Change single Portfolio slug. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+		</group>
+	</tab>
+	
+	<tab label="Portfolio Listing" icon="cog">
+		<group>
+			<fields label="Listing Page">
+				<option id="portfolio-listing-page" type="page" width="100" default=""></option>
+				<description>Assign Portfolios Listing page to a page. Remember to save the permalink settings again in Settings > Permalinks</description>
+			</fields>
+
+			<fields label="Listing Style">
+				<option id="portfolio-listing-style" type="select" default="full" tooltip="" >
+					<select value="classic" text="Classic"/>
+					<select value="modern" text="Modern"/>
+					<select value="modern-square" text="Modern Square"/>
+				</option>
+				<description>Select style for Portfolio Listing page</description>
+			</fields>
+			<fields label="Post Per Page">
+				<option id="portfolio-post-per-page" type="textfield" width="100" default="10"></option>
+				<description>Number of posts per page in Portfolio Listing page</description>
+			</fields>
+			<fields label="Fullwidth">
+				<option id="port_list_full" type="select" default="on" tooltip="" >
+					<select value="on" text="On"/>
+					<select value="off" text="Off"/>
+				</option>
+				<description></description>
+			</fields>
+			<fields label="Portfolio Footer CTA content">
+				<option id="portfolio-footer-cta-content"  type="editor" cols="61" rows="3"></option>
+				<description>Footer CTA Content for all Portfolio pages</description>
+			</fields>
+		</group>
+	</tab>
+	<tab label="Single Portfolio" icon="cog">
+		<group>
+			<fields label="Style">
+				<option id="portfolio-style" type="select" default="right" tooltip="" >
+					<select value="big-gallery" text="Big Gallery"/>
+					<select value="small-gallery" text="Small Gallery"/>
+					<select value="big-image" text="Big Image"/>
+					<select value="small-image" text="Image List"/>
+				</option>
+				<description>Select default layout for single portfolio pages</description>
+			</fields>
+			<fields label="Default Metadata">
+				<option id="portfolio-metadata"  type="textarea" cols="61" rows="3"></option>
+				<description>Define default metadata for all projects, ex: Client, Services...</description>
+			</fields>
+			<fields label="Number of Related Portfolio">
+				<option id="portfolio_number_related" type="textfield" width="100" default="5"></option>
+			</fields>
+			<fields label="Heading Background">
+				<option id="portfolio-header_img" type="media" width="100" default="" label="Background Image"></option>
+			</fields>
+			<fields>
+				<option id="portfolio-headerbg" label="Background Color" type="color" width="100" default=""></option>
+				<option id="header_bg_repeat" type="select" default="" tooltip="" label="Background Repeat">
+					<select value="" text="No repeat"/>
+					<select value="repeat" text="Repeat"/>
+					<select value="repeat-x" text="Repeat Horizontally"/>
+					<select value="repeat-y" text="Repeat Vertically"/>
+					<select value="inherit" text="Inherit"/>
+				</option>
+				<option id="header_bg_attachment" type="select" default="" tooltip="" label="Background Attachment" >
+					<select value="" text=""/>
+					<select value="fixed" text="Fixed"/>
+					<select value="scroll" text="Scroll"/>
+					<select value="inherit" text="Inherit"/>
+				</option>
+				<option id="header_bg_position" type="select" default="" label="Background Position" tooltip="" >
+					<select value="" text=""/>
+					<select value="left top" text="Left Top"/>
+					<select value="left center" text="Left Center"/>
+					<select value="left bottom" text="Left Bottom"/>
+					<select value="center top" text="Center Top"/>
+					<select value="center center" text="Center Center"/>
+					<select value="center bottom" text="Center Bottom"/>
+					<select value="right top" text="Right Top"/>
+					<select value="right center" text="Right Center"/>
+					<select value="right bottom" text="Right Bottom"/>
+				</option>
+				<option id="background-size" type="textfield" width="100" default="" label="Background Size"></option>
+				<description></description>
+			</fields>
+		</group>
+	</tab>
+</options>
